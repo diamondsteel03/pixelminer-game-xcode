@@ -1,0 +1,883 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E18C486A2DF6717200FD3517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18C48692DF6717200FD3517 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E15DA7582DF50B8100CA7603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E15DA73F2DF50B7F00CA7603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15DA7462DF50B7F00CA7603;
+			remoteInfo = "PixelMiner Launcher";
+		};
+		E15DA7622DF50B8100CA7603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E15DA73F2DF50B7F00CA7603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15DA7462DF50B7F00CA7603;
+			remoteInfo = "PixelMiner Launcher";
+		};
+		E15DA78F2DF50DA200CA7603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E15DA73F2DF50B7F00CA7603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15DA7772DF50DA000CA7603;
+			remoteInfo = "pixelminer game";
+		};
+		E15DA7992DF50DA300CA7603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E15DA73F2DF50B7F00CA7603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15DA7772DF50DA000CA7603;
+			remoteInfo = "pixelminer game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E15DA7472DF50B7F00CA7603 /* PixelMiner Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PixelMiner Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15DA7572DF50B8100CA7603 /* PixelMiner LauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PixelMiner LauncherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15DA7612DF50B8100CA7603 /* PixelMiner LauncherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PixelMiner LauncherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15DA7782DF50DA000CA7603 /* pixelminer game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pixelminer game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15DA78E2DF50DA200CA7603 /* pixelminer gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pixelminer gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15DA7982DF50DA200CA7603 /* pixelminer gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pixelminer gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E18C485B2DF66F9D00FD3517 /* pixelminer game.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "pixelminer game.xcodeproj"; path = "../pixelminer game/pixelminer game.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		E18C48692DF6717200FD3517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E15DA7492DF50B7F00CA7603 /* PixelMiner Launcher */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PixelMiner Launcher";
+			sourceTree = "<group>";
+		};
+		E15DA75A2DF50B8100CA7603 /* PixelMiner LauncherTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PixelMiner LauncherTests";
+			sourceTree = "<group>";
+		};
+		E15DA7642DF50B8100CA7603 /* PixelMiner LauncherUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PixelMiner LauncherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E15DA7442DF50B7F00CA7603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DA7542DF50B8100CA7603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DA75E2DF50B8100CA7603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DA7752DF50DA000CA7603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DA78B2DF50DA200CA7603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DA7952DF50DA200CA7603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E15DA73E2DF50B7F00CA7603 = {
+			isa = PBXGroup;
+			children = (
+				E18C485B2DF66F9D00FD3517 /* pixelminer game.xcodeproj */,
+				E15DA7492DF50B7F00CA7603 /* PixelMiner Launcher */,
+				E15DA75A2DF50B8100CA7603 /* PixelMiner LauncherTests */,
+				E15DA7642DF50B8100CA7603 /* PixelMiner LauncherUITests */,
+				E15DA7482DF50B7F00CA7603 /* Products */,
+				E18C48692DF6717200FD3517 /* AppDelegate.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		E15DA7482DF50B7F00CA7603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E15DA7472DF50B7F00CA7603 /* PixelMiner Launcher.app */,
+				E15DA7572DF50B8100CA7603 /* PixelMiner LauncherTests.xctest */,
+				E15DA7612DF50B8100CA7603 /* PixelMiner LauncherUITests.xctest */,
+				E15DA7782DF50DA000CA7603 /* pixelminer game.app */,
+				E15DA78E2DF50DA200CA7603 /* pixelminer gameTests.xctest */,
+				E15DA7982DF50DA200CA7603 /* pixelminer gameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E18C485E2DF66F9E00FD3517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E15DA7462DF50B7F00CA7603 /* PixelMiner Launcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15DA76B2DF50B8100CA7603 /* Build configuration list for PBXNativeTarget "PixelMiner Launcher" */;
+			buildPhases = (
+				E15DA7432DF50B7F00CA7603 /* Sources */,
+				E15DA7442DF50B7F00CA7603 /* Frameworks */,
+				E15DA7452DF50B7F00CA7603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E15DA7492DF50B7F00CA7603 /* PixelMiner Launcher */,
+			);
+			name = "PixelMiner Launcher";
+			packageProductDependencies = (
+			);
+			productName = "PixelMiner Launcher";
+			productReference = E15DA7472DF50B7F00CA7603 /* PixelMiner Launcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E15DA7562DF50B8100CA7603 /* PixelMiner LauncherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15DA76E2DF50B8100CA7603 /* Build configuration list for PBXNativeTarget "PixelMiner LauncherTests" */;
+			buildPhases = (
+				E15DA7532DF50B8100CA7603 /* Sources */,
+				E15DA7542DF50B8100CA7603 /* Frameworks */,
+				E15DA7552DF50B8100CA7603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E15DA7592DF50B8100CA7603 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E15DA75A2DF50B8100CA7603 /* PixelMiner LauncherTests */,
+			);
+			name = "PixelMiner LauncherTests";
+			packageProductDependencies = (
+			);
+			productName = "PixelMiner LauncherTests";
+			productReference = E15DA7572DF50B8100CA7603 /* PixelMiner LauncherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E15DA7602DF50B8100CA7603 /* PixelMiner LauncherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15DA7712DF50B8100CA7603 /* Build configuration list for PBXNativeTarget "PixelMiner LauncherUITests" */;
+			buildPhases = (
+				E15DA75D2DF50B8100CA7603 /* Sources */,
+				E15DA75E2DF50B8100CA7603 /* Frameworks */,
+				E15DA75F2DF50B8100CA7603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E15DA7632DF50B8100CA7603 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E15DA7642DF50B8100CA7603 /* PixelMiner LauncherUITests */,
+			);
+			name = "PixelMiner LauncherUITests";
+			packageProductDependencies = (
+			);
+			productName = "PixelMiner LauncherUITests";
+			productReference = E15DA7612DF50B8100CA7603 /* PixelMiner LauncherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E15DA7772DF50DA000CA7603 /* pixelminer game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15DA7A02DF50DA300CA7603 /* Build configuration list for PBXNativeTarget "pixelminer game" */;
+			buildPhases = (
+				E15DA7742DF50DA000CA7603 /* Sources */,
+				E15DA7752DF50DA000CA7603 /* Frameworks */,
+				E15DA7762DF50DA000CA7603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pixelminer game";
+			packageProductDependencies = (
+			);
+			productName = "pixelminer game";
+			productReference = E15DA7782DF50DA000CA7603 /* pixelminer game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E15DA78D2DF50DA200CA7603 /* pixelminer gameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15DA7A32DF50DA300CA7603 /* Build configuration list for PBXNativeTarget "pixelminer gameTests" */;
+			buildPhases = (
+				E15DA78A2DF50DA200CA7603 /* Sources */,
+				E15DA78B2DF50DA200CA7603 /* Frameworks */,
+				E15DA78C2DF50DA200CA7603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E15DA7902DF50DA200CA7603 /* PBXTargetDependency */,
+			);
+			name = "pixelminer gameTests";
+			packageProductDependencies = (
+			);
+			productName = "pixelminer gameTests";
+			productReference = E15DA78E2DF50DA200CA7603 /* pixelminer gameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E15DA7972DF50DA200CA7603 /* pixelminer gameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15DA7A62DF50DA300CA7603 /* Build configuration list for PBXNativeTarget "pixelminer gameUITests" */;
+			buildPhases = (
+				E15DA7942DF50DA200CA7603 /* Sources */,
+				E15DA7952DF50DA200CA7603 /* Frameworks */,
+				E15DA7962DF50DA200CA7603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E15DA79A2DF50DA300CA7603 /* PBXTargetDependency */,
+			);
+			name = "pixelminer gameUITests";
+			packageProductDependencies = (
+			);
+			productName = "pixelminer gameUITests";
+			productReference = E15DA7982DF50DA200CA7603 /* pixelminer gameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E15DA73F2DF50B7F00CA7603 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					E15DA7462DF50B7F00CA7603 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					E15DA7562DF50B8100CA7603 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E15DA7462DF50B7F00CA7603;
+					};
+					E15DA7602DF50B8100CA7603 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E15DA7462DF50B7F00CA7603;
+					};
+					E15DA7772DF50DA000CA7603 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					E15DA78D2DF50DA200CA7603 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E15DA7772DF50DA000CA7603;
+					};
+					E15DA7972DF50DA200CA7603 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E15DA7772DF50DA000CA7603;
+					};
+				};
+			};
+			buildConfigurationList = E15DA7422DF50B7F00CA7603 /* Build configuration list for PBXProject "PixelMiner Launcher" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E15DA73E2DF50B7F00CA7603;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E15DA7482DF50B7F00CA7603 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E18C485E2DF66F9E00FD3517 /* Products */;
+					ProjectRef = E18C485B2DF66F9D00FD3517 /* pixelminer game.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E15DA7462DF50B7F00CA7603 /* PixelMiner Launcher */,
+				E15DA7562DF50B8100CA7603 /* PixelMiner LauncherTests */,
+				E15DA7602DF50B8100CA7603 /* PixelMiner LauncherUITests */,
+				E15DA7772DF50DA000CA7603 /* pixelminer game */,
+				E15DA78D2DF50DA200CA7603 /* pixelminer gameTests */,
+				E15DA7972DF50DA200CA7603 /* pixelminer gameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E15DA7452DF50B7F00CA7603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DA7552DF50B8100CA7603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DA75F2DF50B8100CA7603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DA7762DF50DA000CA7603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DA78C2DF50DA200CA7603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DA7962DF50DA200CA7603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E15DA7432DF50B7F00CA7603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18C486A2DF6717200FD3517 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DA7532DF50B8100CA7603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DA75D2DF50B8100CA7603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DA7742DF50DA000CA7603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DA78A2DF50DA200CA7603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DA7942DF50DA200CA7603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E15DA7592DF50B8100CA7603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E15DA7462DF50B7F00CA7603 /* PixelMiner Launcher */;
+			targetProxy = E15DA7582DF50B8100CA7603 /* PBXContainerItemProxy */;
+		};
+		E15DA7632DF50B8100CA7603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E15DA7462DF50B7F00CA7603 /* PixelMiner Launcher */;
+			targetProxy = E15DA7622DF50B8100CA7603 /* PBXContainerItemProxy */;
+		};
+		E15DA7902DF50DA200CA7603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E15DA7772DF50DA000CA7603 /* pixelminer game */;
+			targetProxy = E15DA78F2DF50DA200CA7603 /* PBXContainerItemProxy */;
+		};
+		E15DA79A2DF50DA300CA7603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E15DA7772DF50DA000CA7603 /* pixelminer game */;
+			targetProxy = E15DA7992DF50DA300CA7603 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E15DA7692DF50B8100CA7603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E15DA76A2DF50B8100CA7603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E15DA76C2DF50B8100CA7603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PixelMiner Launcher/PixelMiner_Launcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "PixelMiner launch";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.Diamondsteel03.PixelMiner-Launcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E15DA76D2DF50B8100CA7603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PixelMiner Launcher/PixelMiner_Launcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "PixelMiner launch";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.Diamondsteel03.PixelMiner-Launcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E15DA76F2DF50B8100CA7603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.Diamondsteel03.PixelMiner-LauncherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixelMiner Launcher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PixelMiner Launcher";
+			};
+			name = Debug;
+		};
+		E15DA7702DF50B8100CA7603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.Diamondsteel03.PixelMiner-LauncherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixelMiner Launcher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PixelMiner Launcher";
+			};
+			name = Release;
+		};
+		E15DA7722DF50B8100CA7603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.Diamondsteel03.PixelMiner-LauncherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "PixelMiner Launcher";
+			};
+			name = Debug;
+		};
+		E15DA7732DF50B8100CA7603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.Diamondsteel03.PixelMiner-LauncherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "PixelMiner Launcher";
+			};
+			name = Release;
+		};
+		E15DA7A12DF50DA300CA7603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "pixelminer game/pixelminer_game.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.Diamondsteel03.pixelminer-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E15DA7A22DF50DA300CA7603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "pixelminer game/pixelminer_game.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.Diamondsteel03.pixelminer-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E15DA7A42DF50DA300CA7603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.Diamondsteel03.pixelminer-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pixelminer game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pixelminer game";
+			};
+			name = Debug;
+		};
+		E15DA7A52DF50DA300CA7603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.Diamondsteel03.pixelminer-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pixelminer game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pixelminer game";
+			};
+			name = Release;
+		};
+		E15DA7A72DF50DA300CA7603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.Diamondsteel03.pixelminer-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "pixelminer game";
+			};
+			name = Debug;
+		};
+		E15DA7A82DF50DA300CA7603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.Diamondsteel03.pixelminer-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "pixelminer game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E15DA7422DF50B7F00CA7603 /* Build configuration list for PBXProject "PixelMiner Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15DA7692DF50B8100CA7603 /* Debug */,
+				E15DA76A2DF50B8100CA7603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15DA76B2DF50B8100CA7603 /* Build configuration list for PBXNativeTarget "PixelMiner Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15DA76C2DF50B8100CA7603 /* Debug */,
+				E15DA76D2DF50B8100CA7603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15DA76E2DF50B8100CA7603 /* Build configuration list for PBXNativeTarget "PixelMiner LauncherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15DA76F2DF50B8100CA7603 /* Debug */,
+				E15DA7702DF50B8100CA7603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15DA7712DF50B8100CA7603 /* Build configuration list for PBXNativeTarget "PixelMiner LauncherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15DA7722DF50B8100CA7603 /* Debug */,
+				E15DA7732DF50B8100CA7603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15DA7A02DF50DA300CA7603 /* Build configuration list for PBXNativeTarget "pixelminer game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15DA7A12DF50DA300CA7603 /* Debug */,
+				E15DA7A22DF50DA300CA7603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15DA7A32DF50DA300CA7603 /* Build configuration list for PBXNativeTarget "pixelminer gameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15DA7A42DF50DA300CA7603 /* Debug */,
+				E15DA7A52DF50DA300CA7603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15DA7A62DF50DA300CA7603 /* Build configuration list for PBXNativeTarget "pixelminer gameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15DA7A72DF50DA300CA7603 /* Debug */,
+				E15DA7A82DF50DA300CA7603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E15DA73F2DF50B7F00CA7603 /* Project object */;
+}
